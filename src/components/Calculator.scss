@@ -7,34 +7,44 @@
   "numbers numbers numbers operator"
   "numbers numbers numbers operator"
   "numbers numbers numbers operator";
-  border: 1px solid #000;
 
   .screen {
     grid-area: screen;
-    background-color: #000;
     color: #fff;
     font-size: 2rem;
     text-align: right;
-    padding: 0.5rem;
+    padding: 1rem .5rem;
+    background-color: #858693;
   }
 
   .numbers {
     grid-area: numbers;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-radius: none;
-    padding: 0.5rem;
+    background-color: #e0e0e0;
 
-    button:nth-child(13) {
+    div:nth-child(13) {
         grid-column: span 2;
-      }
+    }
+
+    .button {
+        text-align: center;
+        border: 1px solid #bababa;
+        padding: 1rem;
+    }
+
   }
 
   .operator {
     grid-area: operator;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0.5rem;
-    padding: 0.5rem;
+    background-color: #f4913e;
+
+    .button {
+        text-align: center;
+        border: 1px solid #bababa;
+        padding: 1rem;
+    }
   }
 }
