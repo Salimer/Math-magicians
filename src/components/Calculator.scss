@@ -1,19 +1,19 @@
 .calculator-container {
   display: grid;
-  grid-template-areas: 
-  "screen screen screen screen"
-  "numbers numbers numbers operator"
-  "numbers numbers numbers operator"
-  "numbers numbers numbers operator"
-  "numbers numbers numbers operator"
-  "numbers numbers numbers operator";
+  grid-template-areas:
+    "screen screen screen screen"
+    "numbers numbers numbers operator"
+    "numbers numbers numbers operator"
+    "numbers numbers numbers operator"
+    "numbers numbers numbers operator"
+    "numbers numbers numbers operator";
 
   .screen {
     grid-area: screen;
     color: #fff;
     font-size: 2rem;
     text-align: right;
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
     background-color: #858693;
   }
 
@@ -24,15 +24,14 @@
     background-color: #e0e0e0;
 
     div:nth-child(13) {
-        grid-column: span 2;
+      grid-column: span 2;
     }
 
     .button {
-        text-align: center;
-        border: 1px solid #bababa;
-        padding: 1rem;
+      text-align: center;
+      border: 1px solid #bababa;
+      padding: 1rem;
     }
-
   }
 
   .operator {
@@ -42,9 +41,9 @@
     background-color: #f4913e;
 
     .button {
-        text-align: center;
-        border: 1px solid #bababa;
-        padding: 1rem;
+      text-align: center;
+      border: 1px solid #bababa;
+      padding: 1rem;
     }
   }
 }
