@@ -1,0 +1,40 @@
+.calculator-container {
+  display: grid;
+  grid-template-areas: 
+  "screen screen screen screen"
+  "numbers numbers numbers operator"
+  "numbers numbers numbers operator"
+  "numbers numbers numbers operator"
+  "numbers numbers numbers operator"
+  "numbers numbers numbers operator";
+  border: 1px solid #000;
+
+  .screen {
+    grid-area: screen;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    text-align: right;
+    padding: 0.5rem;
+  }
+
+  .numbers {
+    grid-area: numbers;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: none;
+    padding: 0.5rem;
+
+    button:nth-child(13) {
+        grid-column: span 2;
+      }
+  }
+
+  .operator {
+    grid-area: operator;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+    padding: 0.5rem;
+  }
+}
