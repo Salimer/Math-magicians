@@ -11,16 +11,18 @@ function Calculator() {
     operation: null,
   });
 
-  const handleButtonClick = (buttonName) => {
-    const result = calculate(calculatorData, buttonName);
-    setCalculatorData(result);
+  const handleButtonClick = (event) => {
+    const clicked = event.target.textContent;
+    const value = calculate(calculatorData, clicked);
+    setCalculatorData(value);
   };
 
+  const { total, operation, next } = calculatorData;
   return (
     <article className="calculator-container">
-      <div className="screen">0</div>
+      <div className="screen">{ next || operation || total || 0 }</div>
       <OperatorBtns handleButtonClick={handleButtonClick} />
-      <NumbersBtns />
+      <NumbersBtns handleButtonClick={handleButtonClick} />
     </article>
   );
 }
