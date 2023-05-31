@@ -1,22 +1,26 @@
-function NumbersBtns() {
+import PropTypes from 'prop-types';
+
+function NumbersBtns({ handleButtonClick }) {
   return (
     <div className="numbers">
-      <div className="button">AC</div>
-      <div className="button">+/-</div>
-      <div className="button">%</div>
-      <div className="button">7</div>
-      <div className="button">8</div>
-      <div className="button">9</div>
-      <div className="button">4</div>
-      <div className="button">5</div>
-      <div className="button">6</div>
-      <div className="button">1</div>
-      <div className="button">2</div>
-      <div className="button">3</div>
-      <div className="button">0</div>
-      <div className="button">.</div>
+      <button type="button" className="button" onClick={handleButtonClick}>AC</button>
+      <button type="button" className="button" onClick={handleButtonClick}>+/-</button>
+      <button type="button" className="button" onClick={handleButtonClick}>%</button>
+      <button type="button" className="button" onClick={handleButtonClick}>7</button>
+      <button type="button" className="button" onClick={handleButtonClick}>8</button>
+      <button type="button" className="button" onClick={handleButtonClick}>9</button>
+      <button type="button" className="button" onClick={handleButtonClick}>4</button>
+      <button type="button" className="button" onClick={handleButtonClick}>5</button>
+      <button type="button" className="button" onClick={handleButtonClick}>6</button>
+      <button type="button" className="button" onClick={handleButtonClick}>1</button>
+      <button type="button" className="button" onClick={handleButtonClick}>2</button>
+      <button type="button" className="button" onClick={handleButtonClick}>3</button>
+      <button type="button" className="button" onClick={handleButtonClick}>0</button>
+      <button type="button" className="button" onClick={handleButtonClick}>.</button>
     </div>
   );
 }
+
+NumbersBtns.propTypes = { handleButtonClick: PropTypes.func.isRequired };
 
 export default NumbersBtns;
