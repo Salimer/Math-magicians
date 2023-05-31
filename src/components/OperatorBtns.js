@@ -2,13 +2,12 @@ import PropTypes from 'prop-types';
 
 function OperatorBtns({ handleButtonClick }) {
   return (
-    <>
     <div className="operator">
-      <div className="button" onClick={handleButtonClick}>÷</div>
-      <div className="button" onClick={handleButtonClick}>*</div>
-      <div className="button" onClick={handleButtonClick}>-</div>
-      <div className="button" onClick={handleButtonClick}>+</div>
-      <div className="button" onClick={handleButtonClick}>=</div>
+      <button type="button" className="button" onClick={handleButtonClick}>÷</button>
+      <button type="button" className="button" onClick={handleButtonClick}>x</button>
+      <button type="button" className="button" onClick={handleButtonClick}>-</button>
+      <button type="button" className="button" onClick={handleButtonClick}>+</button>
+      <button type="button" className="button" onClick={handleButtonClick}>=</button>
     </div>
   );
 }
