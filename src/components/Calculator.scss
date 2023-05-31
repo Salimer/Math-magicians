@@ -23,7 +23,7 @@
     grid-template-columns: repeat(3, 1fr);
     background-color: #e0e0e0;
 
-    div:nth-child(13) {
+    button:nth-child(13) {
       grid-column: span 2;
     }
 
@@ -38,12 +38,12 @@
     grid-area: operator;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: #f4913e;
 
     .button {
       text-align: center;
       border: 1px solid #bababa;
       padding: 1rem;
+      background-color: #f4913e;
     }
   }
 }
