@@ -28,6 +28,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+   - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -89,14 +90,14 @@ By building this application, I improve my skills in using React.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  -->
 
-<!-- LIVE DEMO
+LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://salimer.github.io/COMMENTDISH-project/dist/)
+- [Live Demo Link](salimer.github.io/Math-magicians/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
