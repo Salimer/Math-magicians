@@ -34,9 +34,9 @@ const FetchData = () => {
   if (loading) return <div>Loading...</div>;
 
   return (
-    <ul>
+    <ul className="quote">
       {data.map((item) => (
-        <li key={1}>
+        <li className="li" key={1}>
           {item.quote}
         </li>
       ))}
