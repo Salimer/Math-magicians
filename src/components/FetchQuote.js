@@ -38,6 +38,11 @@ const FetchQuote = () => {
       {data.map((item) => (
         <li className="li" key={1}>
           {item.quote}
+          {' '}
+          <br />
+          <br />
+          -
+          {item.author}
         </li>
       ))}
     </ul>
