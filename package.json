@@ -17,7 +17,7 @@
   },
   "homepage": "https://Salimer.github.io/Math-magicians",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PUBLIC_URL=/ react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
