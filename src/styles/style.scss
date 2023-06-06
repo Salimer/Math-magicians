@@ -21,7 +21,7 @@ a {
   padding: 1rem;
   background-color: #f4913e;
   color: #fff;
-  
+
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -44,11 +44,12 @@ a {
     color: #333;
     text-decoration: none;
   }
+
   /* Active route */
   .active {
     color: #005bb3;
   }
-  
+
   .calculator-container {
     display: grid;
     grid-template-areas:
