@@ -1,4 +1,4 @@
-import '../styles/routes.scss';
+import '../styles/style.scss';
 
 const Home = () => (
   <div className="home-page">
