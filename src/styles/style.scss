@@ -26,8 +26,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // align-items: center;
-    width: 15rem;
+
+    li {
+      padding: 0 0.5rem;
+    }
+
+    li + li {
+      border-left: 1px solid #fff;
+    }
   }
 }
 
