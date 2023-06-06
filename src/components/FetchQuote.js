@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const FetchData = () => {
+const FetchQuote = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -38,10 +38,15 @@ const FetchData = () => {
       {data.map((item) => (
         <li className="li" key={1}>
           {item.quote}
+          {' '}
+          <br />
+          <br />
+          -
+          {item.author}
         </li>
       ))}
     </ul>
   );
 };
 
-export default FetchData;
+export default FetchQuote;
