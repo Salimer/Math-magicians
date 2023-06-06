@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Calculator.scss';
+import '../styles/style.scss';
 import calculate from '../logic/calculate';
 import OperatorBtns from './OperatorBtns';
 import NumbersBtns from './NumbersBtns';
