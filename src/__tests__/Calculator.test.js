@@ -22,4 +22,13 @@ test('updates calculator data correctly when a button is clicked', () => {
 
   fireEvent.click(getAllByText('=')[0]);
   expect(getAllByText('7')[0]).toBeInTheDocument();
+
+  fireEvent.click(getAllByText('-')[0]);
+  expect(getAllByText('-')[0]).toBeInTheDocument();
+
+  fireEvent.click(getAllByText('3')[0]);
+  expect(getAllByText('3')[0]).toBeInTheDocument();
+
+  fireEvent.click(getAllByText('+/-')[0]);
+  expect(getAllByText('+/-')[0]).toBeInTheDocument();
 });
