@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders operator buttons correctly 1`] = `
+<div>
+  <div
+    class="operator"
+  >
+    <button
+      class="button"
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      class="button"
+      type="button"
+    >
+      x
+    </button>
+    <button
+      class="button"
+      type="button"
+    >
+      -
+    </button>
+    <button
+      class="button"
+      type="button"
+    >
+      +
+    </button>
+    <button
+      class="button"
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
