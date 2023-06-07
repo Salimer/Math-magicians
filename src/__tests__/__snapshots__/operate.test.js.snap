@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`operate function performs addition correctly 1`] = `"5"`;
+
+exports[`operate function performs division correctly 1`] = `"5"`;
+
+exports[`operate function performs multiplication correctly 1`] = `"24"`;
+
+exports[`operate function performs subtraction correctly 1`] = `"3"`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Layout correctly 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <nav
+      class="navbar"
+    >
+      <h1>
+        Math Magicians
+      </h1>
+      <ul
+        class="navigation"
+      >
+        <li>
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class=""
+            href="/calculate"
+          >
+            Calculate
+          </a>
+        </li>
+        <li>
+          <a
+            class=""
+            href="/quote"
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
