@@ -31,9 +31,13 @@ describe('calculate function', () => {
     expect(result).toEqual({ total: null, next: '-5', operation: null });
   });
 
-  test('performs addition when "+" button is clicked', () => {
+  test('performs equality when "=" button is clicked', () => {
     const result = calculate({ total: '10', next: '5', operation: '+' }, '=');
-    console.log(result);
     expect(result).toEqual({ total: '15', next: null, operation: null });
+  });
+
+  test('Append "0" when it is button is clicked', () => {
+    const result = calculate({ total: '10', next: '5', operation: '+' }, '0');
+    expect(result).toEqual({ total: '10', next: '50', operation: '+' });
   });
 });
