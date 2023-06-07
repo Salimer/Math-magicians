@@ -7,7 +7,7 @@ test('renders Layout correctly', () => {
   const { container } = render(
     <MemoryRouter>
       <Layout />
-    </MemoryRouter>
+    </MemoryRouter>,
   );
   expect(container).toMatchSnapshot();
 });
