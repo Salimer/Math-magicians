@@ -28,14 +28,15 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-   - [🚀 Live Demo](#live-demo)
- - [💻 Getting Started ](#-getting-started-)
-   - [Prerequisites](#prerequisites)
-   - [Setup](#setup)
-   - [Install](#install)
-   - [Usage](#usage)
-   - [Run tests](#run-tests)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
   - [👥 Author ](#-author-)
+  - [👥 Collaborator ](#-collaborator-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -170,7 +171,13 @@ To run tests, run the following command:
 
 - GitHub: [@Salimer](https://github.com/Salimer)
 
+## 👥 Collaborator <a name="collaborator"></a>
 
+👤 **Martín Ezequiel González**
+
+- GitHub: [@Mar12358](https://github.com/Mar12358)
+- Twitter: [@MarezegonZ](https://twitter.com/MarezegonZ)
+- LinkedIn: [Martin Ezequiel Gonzalez](https://www.linkedin.com/in/martin-ezequiel-gonzalez-30a413260/)
 
 
 
