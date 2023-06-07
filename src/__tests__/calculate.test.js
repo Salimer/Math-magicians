@@ -36,7 +36,7 @@ describe('calculate function', () => {
     expect(result).toEqual({ total: '15', next: null, operation: null });
   });
 
-  test('Append "0" when it is button is clicked', () => {
+  test('Append "0" when it is clicked', () => {
     const result = calculate({ total: '10', next: '5', operation: '+' }, '0');
     expect(result).toEqual({ total: '10', next: '50', operation: '+' });
   });
