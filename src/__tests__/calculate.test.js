@@ -30,4 +30,10 @@ describe('calculate function', () => {
     const result = calculate({ total: null, next: '5', operation: null }, '+/-');
     expect(result).toEqual({ total: null, next: '-5', operation: null });
   });
+
+  test('performs addition when "+" button is clicked', () => {
+    const result = calculate({ total: '10', next: '5', operation: '+' }, '=');
+    console.log(result);
+    expect(result).toEqual({ total: '15', next: null, operation: null });
+  });
 });
